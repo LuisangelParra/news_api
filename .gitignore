@@ -46,3 +46,6 @@ htmlcov/
 .nox/
 pytest_cache/
 __pypackages__/
+
+# Archivos de credenciales
+service_account.json
