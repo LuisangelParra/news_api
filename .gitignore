@@ -1,0 +1,48 @@
+# Entorno virtual
+venv/
+ENV/
+env/
+.venv/
+
+# Archivos de Python
+__pycache__/
+*.py[cod]
+*.so
+*.egg
+*.egg-info/
+dist/
+build/
+
+# Archivos Django
+*.log
+*.pot
+*.pyc
+*.pyo
+*.db
+*.sqlite3
+db.sqlite3
+
+# Archivos de configuración/secretos
+.env
+*.env
+*.json
+
+# Archivos de credenciales de Google Cloud
+service_account.json
+
+# Archivos de sistema
+.DS_Store
+Thumbs.db
+
+# VSCode, PyCharm, etc
+.vscode/
+.idea/
+*.swp
+
+# Archivos de testing y cobertura
+.coverage
+htmlcov/
+.tox/
+.nox/
+pytest_cache/
+__pypackages__/
